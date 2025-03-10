@@ -1,0 +1,5 @@
+TC ID	Test Case Description	Expected Result	Status
+TC_01	Enter only symbols (@#$%^&*) in the text field	System should reject input and show an error message	Pending
+TC_02	Enter symbols mixed with alphanumeric characters (Test@123)	System should allow/reject based on business rules	Pending
+TC_03	Check if symbols are allowed in password fields	System should allow based on password policy	Pending
+TC_04	Validate SQL Injection using ('; DROP TABLE users; --)	System should sanitize input and prevent SQL injection	Pending
